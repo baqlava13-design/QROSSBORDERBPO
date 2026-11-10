@@ -57,3 +57,32 @@
 .price-card .bigprice{margin:22px 0}
 @media(max-width:900px){.flexibility-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.prices-three{grid-template-columns:1fr}}
 @media(max-width:600px){.flexibility-grid{grid-template-columns:1fr}.flexibility-bottom{align-items:flex-start;flex-direction:column}}
+
+/* Brand color refinement: flexible benefits, without changing the hero */
+.flexible-section{background:linear-gradient(180deg,#f0f5fa 0%,#ffffff 100%);position:relative}
+.flexible-section .sectionheading .eyebrow{display:inline-block;background:#fde9ec;color:#bf0918;border-radius:100px;padding:8px 15px;letter-spacing:.07em}
+.flexible-section .sectionheading h2{color:#102b46}
+.flexibility-card{background:#fff;border:1px solid #d7e1ec;border-top:4px solid #d20a16;box-shadow:0 9px 25px rgba(16,43,70,.07);transition:transform .2s ease,box-shadow .2s ease}
+.flexibility-card:nth-child(2),.flexibility-card:nth-child(5){border-top-color:#244c73}
+.flexibility-card:nth-child(3),.flexibility-card:nth-child(6){border-top-color:#b51b29}
+.flexibility-card:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(16,43,70,.12)}
+.flexibility-icon{background:#d20a16;color:#fff;border-radius:12px;width:44px;height:44px}
+.flexibility-card:nth-child(2) .flexibility-icon,.flexibility-card:nth-child(5) .flexibility-icon{background:#173b5e}
+.flexibility-card h3{color:#102b46}
+.flexibility-bottom{background:#102b46;border-radius:13px;padding:20px 24px;color:white}
+.flexibility-bottom strong{color:white;font-size:17px}
+.flexibility-bottom .btn{background:#d20a16;border-color:#d20a16}
+/* Rounded footer logo, retaining the supplied logo artwork */
+.sitefooter .footerbrand img{border-radius:13px;background:#fff;padding:7px 9px;display:block;object-fit:contain;box-shadow:0 5px 16px rgba(0,0,0,.12)}
+@media(max-width:600px){.flexibility-bottom{padding:18px}.flexibility-card{padding:22px}}
+
+/* Dedicated freelancer recruitment */
+.freelancer-apply{background:linear-gradient(145deg,#eef4fa 0%,#fff 80%)}
+.freelancer-apply-grid{display:grid;grid-template-columns:.9fr 1.3fr;gap:58px;align-items:start}
+.freelancer-apply-grid>div>h2{color:#102b46}
+.freelancer-form{border-top:5px solid #d20a16;box-shadow:0 14px 40px rgba(16,43,70,.10)}
+.freelancer-form .formtwo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.freelancer-form label{min-width:0}
+.freelancer-hero{background:linear-gradient(125deg,#f0f5fa,#fff)}
+@media(max-width:850px){.freelancer-apply-grid{grid-template-columns:1fr;gap:28px}}
+@media(max-width:560px){.freelancer-form .formtwo{grid-template-columns:1fr}}
