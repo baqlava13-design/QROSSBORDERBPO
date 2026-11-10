@@ -1,1 +1,0 @@
-{"rewrites":[{"source":"/((?!assets/|logo.png).*)","destination":"/index.html"}]}
