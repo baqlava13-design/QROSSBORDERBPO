@@ -161,3 +161,8 @@ html{scroll-behavior:smooth}body{background:#fff;color:var(--qb-navy)}
 .expertise-final p{margin:0;color:#52657d}
 @media(max-width:900px){.hero-v3 .hero-inner,.servicehero .serviceherogrid{width:min(1160px,calc(100% - 44px));grid-template-columns:1fr;gap:0}.hero-v3 .heroart,.servicehero .serviceillustration{height:270px;width:100%;margin:0;clip-path:none;border-radius:12px}.expertise-audience-inner{grid-template-columns:1fr 1fr;gap:22px}.expertise-benefit-grid{grid-template-columns:1fr 1fr}.expertise-final-inner{flex-direction:column;align-items:flex-start}}
 @media(max-width:560px){.expertise-audience-inner{grid-template-columns:1fr}.expertise-benefit-grid{grid-template-columns:1fr}.expertise-audience{margin:0 12px}}
+
+/* Consistent USP strip below the full-width hero on all three main pages */
+.hero-trust{width:min(1160px,calc(100% - 44px));margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:23px 0;border-bottom:1px solid #e8edf3;color:#173354;font-weight:650}
+.hero-trust span{display:inline-flex;align-items:center;gap:9px}.hero-trust svg{color:#d20a16;stroke-width:2;flex-shrink:0}
+@media(max-width:700px){.hero-trust{flex-direction:column;align-items:flex-start;gap:12px;padding:20px 0}}
